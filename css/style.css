@@ -103,8 +103,43 @@ input[type=radio] {
         {
             background-color:pink;
             font-family: 'Gugi', cursive;
-
-        
-
         }
+/*code css pour page profil*/
+.icon
+{
+    width:10%
+}
 
+strong
+{
+    text-decoration:underline;
+    font-family: 'Baloo Bhai', cursive; 
+    font-size:1.5em;
+}
+h3
+{
+    font-family: 'Baloo Bhai', cursive;
+    text-decoration: underline;
+    font-size:2em;
+}
+.profil
+{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:200px;
+    height:200px;
+}
+.prof
+{
+     color:#696969;
+     font-family: cursive;
+     text-shadow:pink 2px 0 10px;
+     font-size:30px;
+}
+ul{
+    color:red ;
+    text-shadow: gold 2px 0 30px;
+    font-size:1.3em;
+}
