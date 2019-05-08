@@ -1,6 +1,7 @@
 /*code css pour la page home*/
 body
 {
+    
     text-align: center ;
     font-weight: bolder;
     background-color:#AED6F1;
@@ -67,4 +68,43 @@ input[type=radio] {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:2em;
 }
+ /*code css de la page todolist*/
+ .todo
+ {
+     color:#696969;
+     font-family: cursive;
+     text-shadow:pink 2px 0 10px;
+ }
+
+ table {
+    border-width:1px; 
+    border-style:solid ; 
+    border-color:black;
+    width:50%;
+    border-collapse:collapse;
+    width:90%;
+    margin-left: 5%;
+    }
+
+    th, td {
+        border:1px double black;
+        width:20%;  
+        }
+       td {
+        text-align:center;
+        background-color: #FFEFD5;
+        font-family: 'Stylish', sans-serif;
+
+        }
+       caption {
+        font-weight:bold
+        }
+        .bg
+        {
+            background-color:pink;
+            font-family: 'Gugi', cursive;
+
+        
+
+        }
 
