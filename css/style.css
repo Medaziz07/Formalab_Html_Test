@@ -7,10 +7,6 @@ body
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 } 
-bouton
-{
-    
-}
 
 img{
     border-radius:10px;
@@ -52,10 +48,23 @@ form {
     padding:10px;
     width:300px;
     margin-left: 39%;
-    }
-    input[type=radio] {
-        background-color:transparent;
-        border:none;
-        width:10px;
-        }
- 
+}
+    
+input[type=radio] {
+    background-color:transparent;
+    border:none;
+    width:10px;
+}
+
+
+/*code css de la page cnx*/
+        
+.cnx
+{
+    color:black;
+    text-shadow: #FC0 1px 0 10px;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:2em;
+}
+
