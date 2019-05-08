@@ -1,4 +1,24 @@
-img
+body
 {
-    width: 100%;
+    background-image: url("/images/todolist.jpg") ;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+    
+   
+}
+a.bouton{
+padding: 15px 40px;
+background: blue; 
+color: white; 
+font-weight: bold;
+font-size: 18px;
+-webkit-border-radius: 11px;
+-moz-border-radius: 11px;
+border-radius: 11px;
+
+}
+a.bouton:hover {
+    background: red;
 }
