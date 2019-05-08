@@ -1,0 +1,29 @@
+/*code css pour la page home*/
+body
+{
+    text-align: center ;
+    font-weight: bolder;
+    background-color:#AED6F1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+img{
+    border-radius:10px;
+    border-style: dotted ;
+    width: 20%;   
+}
+
+.parag
+{
+   
+    color: black;
+    position: relative; 
+    position:absolute; top:87.5% ;
+    border:solid rgb(231, 48, 48) ;
+    border-radius: 10px;
+    margin-left: 15%;
+    line-height: 2em;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+
