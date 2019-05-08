@@ -5,7 +5,12 @@ body
     font-weight: bolder;
     background-color:#AED6F1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 } 
+bouton
+{
+    
+}
 
 img{
     border-radius:10px;
@@ -26,4 +31,31 @@ img{
     text-shadow: #FC0 1px 0 10px;
 }
 
+/*code css de la page inscription*/
+input, textarea, select {
+    padding:3px;
+    border:1px solid #F5C5C5;
+    border-radius:5px;
+    width:200px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+    
+}
 
+h2{
+    color: red;
+    text-shadow: #FC0 1px 0 10px;
+    text-decoration: underline;
+}
+ 
+form {
+    background-color:#FAFAFA;
+    padding:10px;
+    width:300px;
+    margin-left: 39%;
+    }
+    input[type=radio] {
+        background-color:transparent;
+        border:none;
+        width:10px;
+        }
+ 
