@@ -1,145 +1,130 @@
-/*code css pour la page home*/
-body
-{
-    
-    text-align: center ;
-    font-weight: bolder;
-    background-color:#AED6F1;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                /*code css pour la page home*/
 
-} 
+                                body {
+                                    text-align: center;
+                                    font-weight: bolder;
+                                    background-color: #AED6F1;
+                                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                }
 
-img{
-    border-radius:10px;
-    border-style: dotted ;
-    width: 20%;   
-}
+                                img {
+                                    border-radius: 10px;
+                                    border-style: dotted;
+                                    width: 20%;
+                                }
 
-.parag
-{
-   
-    color: black;
-    position: relative; 
-    position:absolute; top:87.5% ;
-    border:solid rgb(231, 48, 48) ;
-    border-radius: 10px;
-    margin-left: 15%;
-    line-height: 2em;
-    text-shadow: #FC0 1px 0 10px;
-}
+                                .parag {
+                                    color: black;
+                                    position: relative;
+                                    position: absolute;
+                                    top: 87.5%;
+                                    border: solid rgb(231, 48, 48);
+                                    border-radius: 10px;
+                                    margin-left: 15%;
+                                    line-height: 2em;
+                                    text-shadow: #FC0 1px 0 10px;
+                                }
 
-/*code css de la page inscription*/
-input, textarea, select {
-    padding:3px;
-    border:1px solid #F5C5C5;
-    border-radius:5px;
-    width:200px;
-    box-shadow:1px 1px 2px #C0C0C0 inset;
-    
-}
+                                /*code css de la page inscription*/
 
-h2{
-    color: red;
-    text-shadow: #FC0 1px 0 10px;
-    text-decoration: underline;
-}
- 
-form {
-    background-color:#FAFAFA;
-    padding:10px;
-    width:300px;
-    margin-left: 39%;
-}
-    
-input[type=radio] {
-    background-color:transparent;
-    border:none;
-    width:10px;
-}
+                                input {
+                                    padding: 3px;
+                                    border: 1px solid #F5C5C5;
+                                    border-radius: 5px;
+                                    width: 200px;
+                                    box-shadow: 1px 1px 2px #C0C0C0 inset;
+                                }
 
+                                h2 {
+                                    color: red;
+                                    text-shadow: #FC0 1px 0 10px;
+                                    text-decoration: underline;
+                                }
 
-/*code css de la page cnx*/
-        
-.cnx
-{
-    color:black;
-    text-shadow: #FC0 1px 0 10px;
-    text-decoration: underline;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:2em;
-}
- /*code css de la page todolist*/
- .todo
- {
-     color:#696969;
-     font-family: cursive;
-     text-shadow:pink 2px 0 10px;
- }
+                                form {
+                                    background-color: #FAFAFA;
+                                    padding: 10px;
+                                    width: 300px;
+                                    margin-left: 39%;
+                                }
 
- table {
-    border-width:1px; 
-    border-style:solid ; 
-    border-color:black;
-    width:50%;
-    border-collapse:collapse;
-    width:90%;
-    margin-left: 5%;
-    }
+                                input[type=radio] {
+                                    background-color: transparent;
+                                    border: none;
+                                    width: 10px;
+                                }
 
-    th, td {
-        border:1px double black;
-        width:20%;  
-        }
-       td {
-        text-align:center;
-        background-color: #FFEFD5;
-        font-family: 'Stylish', sans-serif;
+                                /*code css de la page cnx*/
 
-        }
-       caption {
-        font-weight:bold
-        }
-        .bg
-        {
-            background-color:pink;
-            font-family: 'Gugi', cursive;
-        }
-/*code css pour page profil*/
-.icon
-{
-    width:10%
-}
+                                .cnx {
+                                    color: black;
+                                    text-shadow: #FC0 1px 0 10px;
+                                    text-decoration: underline;
+                                    font-family: Georgia, 'Times New Roman', Times, serif;
+                                    font-size: 2em;
+                                }
 
-strong
-{
-    text-decoration:underline;
-    font-family: 'Baloo Bhai', cursive; 
-    font-size:1.5em;
-}
-h3
-{
-    font-family: 'Baloo Bhai', cursive;
-    text-decoration: underline;
-    font-size:2em;
-}
-.profil
-{
-    overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:50px;
-    width:200px;
-    height:200px;
-}
-.prof
-{
-     color:#696969;
-     font-family: cursive;
-     text-shadow:pink 2px 0 10px;
-     font-size:30px;
-}
-ul{
-    color:red ;
-    text-shadow: gold 2px 0 30px;
-    font-size:1.3em;
-}
+                                /*code css de la page todolist*/
+
+                                .todo {
+                                    color: #696969;
+                                    font-family: cursive;
+                                    text-shadow: pink 2px 0 10px;
+                                }
+
+                                table {
+                                    border-width: 1px;
+                                    border-style: solid;
+                                    border-color: black;
+                                    width: 50%;
+                                    border-collapse: collapse;
+                                    width: 90%;
+                                    margin-left: 5%;
+                                }
+
+                                th, td {
+                                    border: 1px double black;
+                                    width: 20%;
+                                }
+
+                                td {
+                                    text-align: center;
+                                    background-color: #FFEFD5;
+                                    font-family: 'Stylish', sans-serif;
+                                }
+
+                                .bg {
+                                    background-color: pink;
+                                    font-family: 'Gugi', cursive;
+                                }
+
+                                /*code css pour page profil*/
+
+                                .icon {
+                                    width: 10%
+                                }
+
+                                strong {
+                                    text-decoration: underline;
+                                    font-family: 'Baloo Bhai', cursive;
+                                    font-size: 1.5em;
+                                }
+
+                                h3 {
+                                    font-family: 'Baloo Bhai', cursive;
+                                    text-decoration: underline;
+                                    font-size: 2em;
+                                }
+
+                                .prof {
+                                    color: #696969;
+                                    font-family: cursive;
+                                    text-shadow: pink 2px 0 10px;
+                                    font-size: 30px;
+                                }
+
+                                ul {
+                                    color: red;
+                                    text-shadow: gold 2px 0 30px;
+                                    font-size: 1.3em;
+                                }
